@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS43zPzJ6Hcwmvefya1XYbgosNNOoN3j0TOtg&usqp=CAU" type="image/x-icon">
+</head>
+<body>
+    <div class="cal">
+        <div id="spider">PRESENTED BY SPIDERMAN</div>
+     <div class="box1" id="item0"><input type="text" id="inp" name="enter"></div> 
+      <div class="container"> 
+          <div class="box"><input type="button" class="item" value="clr" onclick="clr()"></div>
+          <div class="box"><input type="button" class="item" value="del" onclick="cut()"></div>
+          <div class="box"><input type="button" class="item" value="%" id='percent' onclick="percent()"></div>
+          <div class="box"><input type="button" class="item" value=" &#247; " onclick="inp.value+='/'"></div>
+          <div class="box"><input type="button" class="item" value="1" onclick="inp.value+=value"></div>
+          <div class="box"><input type="button" class="item" value="2" onclick="inp.value+=value"></div>
+          <div class="box" ><input type="button" class="item" id="three" value="3" onclick="inp.value+=value"></div>
+          <div class="box"><input type="button" class="item" value="X" onclick="inp.value+='*'"></div>
+          <div class="box"><input type="button" class="item" value="4" onclick="inp.value+=value"></div>
+          <div class="box"><input type="button" class="item" value="5" onclick="inp.value+=value"></div>
+          <div class="box"><input type="button" class="item" value="6" onclick="inp.value+=value"></div>
+          <div class="box"><input type="button" class="item" value="-" onclick="inp.value+=value"></div>
+          <div class="box"><input type="button" class="item" value="7" onclick="inp.value+=value"></div>
+          <div class="box"><input type="button" class="item" value="8" onclick="inp.value+=value"></div>
+          <div class="box"><input type="button" class="item" value="9" onclick="inp.value+=value"></div>
+          <div class="box"><input type="button" class="item" value="+" onclick="inp.value+=value"></div>
+          <div class="box"><input type="button" class="item" value="More" onclick="inp.value+=value"></div>
+          <div class="box" id="zero"><input type="button" class="item"  value="0" onclick="inp.value+=value"></div>
+          <div class="box"><input type="button" class="item" value="." onclick="inp.value+=value"></div>
+          <div class="box" ><input type="button" class="item" value="=" onclick="ans()"></div>
+    </div> 
+</div>
+<script src="script.js"></script>
+</body>
+</html>
